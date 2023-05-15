@@ -14,7 +14,7 @@ const Dash = () => {
         .catch((err)=>console.log(err))
     },[])
   return (
-    <div style={{paddingTop:'150px'}}>
+    <div style={{paddingTop:'40px'}}>
         <Typography variant='h1'>project</Typography>
         <TableContainer>
             <Table>
