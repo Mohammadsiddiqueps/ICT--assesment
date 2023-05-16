@@ -2,6 +2,7 @@ import {Routes, Route} from 'react-router-dom';import './App.css';
 import Add from './components/Add';
 import Navbar from './components/Navbar';
 import Dash from './components/Dash';
+import './components/Style.css';
 
 function App() {
   

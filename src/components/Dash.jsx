@@ -15,26 +15,28 @@ const Dash = () => {
     },[])
   return (
     <div style={{paddingTop:'40px'}}>
-        <Typography variant='h1'>project</Typography>
-        <TableContainer>
-            <Table>
+        <Typography variant='h1' id='field'>Field Data</Typography>
+        <div className='table'>
+        <TableContainer b>
+            <Table id='tab' b >
                 <TableHead>
-                    <TableRow>
-                        <TableCell>Id</TableCell>
-                        <TableCell>Title</TableCell>
+                    <TableRow id='row'>
+                        <TableCell className='th'> <p>Id</p></TableCell>
+                        <TableCell className='th'><p>Title</p></TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
                 {user.map((value,index)=>{
                 return(
                     <TableRow key={index}>
-                        <TableCell>{value.id}</TableCell>
-                        <TableCell>{value.title}</TableCell>
+                        <TableCell className='cell'><p>{value.id}</p></TableCell>
+                        <TableCell className='cell'><p>{value.title}</p></TableCell>
                     </TableRow>
                                     )})}
                 </TableBody>
             </Table>
         </TableContainer>
+        </div>
     </div>
   )
 }

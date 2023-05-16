@@ -1,0 +1,110 @@
+
+body{
+    background-color:   #F9E795;
+    align-items: center;
+
+}
+.btn{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.btn:hover{
+    background-color:rgb(83, 156, 156);
+}
+.box{
+    width: 500px;
+    margin-left: 35%;
+    margin-top: -30px;
+    background-color: #F96167;
+    padding: 30px;
+    border-radius: 10px;
+}
+#head{
+    font-style: oblique;
+    font-family: Trebuchet MS;
+    color: rgb(241, 227, 227);
+    background-color: rgb(83, 156, 156);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.add{
+    background-color: rgb(83, 156, 156);
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#button{
+    color: rgb(255, 255, 255);
+    background-color: #F96167;
+}
+#button:hover{
+    background-color: rgb(68, 216, 216);
+}
+#dash{
+    text-align: left;
+    font-style: initial;
+    font-size: 38px;
+    font-weight: 600;
+}
+#bar{
+    padding: 10px;
+}
+#tab{
+    max-width: 1200px;
+}
+.th{
+    background-color: #e99da0;
+}
+.th p{
+    color: rgb(3, 97, 97);
+    font-size: 40px;
+font-weight: 800;
+text-align: center;
+
+}
+.table{
+    margin: 100px;
+    margin-left: 530px;
+    background-color: #F96167;
+    padding: 50px;
+    width: 800px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.cell{
+    color: #d10505;
+    background-color: rgb(83, 156, 156);
+    margin-left: 60px;
+}
+.cell p{
+    color: #d10505;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.row{
+    background-color: rgb(235, 206, 172);
+}
+#field{
+    color: rgb(212, 125, 125);
+    text-shadow: #d10505;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+    text-shadow: 30px;
+}
